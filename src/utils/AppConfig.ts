@@ -2,17 +2,16 @@ import type { LocalePrefix } from 'node_modules/next-intl/dist/types/src/routing
 
 import { BILLING_INTERVAL, type PricingPlan } from '@/types/Subscription';
 
-const localePrefix: LocalePrefix = 'as-needed';
+const localePrefix: LocalePrefix = 'always';
 
-// FIXME: Update this configuration file based on your project information
+// Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'SaaS Template',
+  name: 'Rehabdynamics AI',
   locales: [
     {
       id: 'en',
       name: 'English',
     },
-    { id: 'fr', name: 'Français' },
   ],
   defaultLocale: 'en',
   localePrefix,
