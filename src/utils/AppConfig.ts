@@ -4,9 +4,9 @@ import { BILLING_INTERVAL, type PricingPlan } from '@/types/Subscription';
 
 const localePrefix: LocalePrefix = 'always';
 
-// Update this configuration file based on your project information
+// FIXME: Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'Rehabdynamics AI',
+  name: 'App Name',
   locales: [
     {
       id: 'en',
